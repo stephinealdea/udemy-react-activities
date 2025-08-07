@@ -1,5 +1,6 @@
 import { useState } from "react";
 import StepCounter from "./StepCounter";
+import StepCounterV2 from "./StepCounterV2"
 
 const messages = [
   "Learn React ⚛️",
@@ -11,7 +12,10 @@ export default function App() {
   return (
     <div>
       <Steps />
+      <hr />
       <StepCounter />
+      <hr />
+      <StepCounterV2 />
     </div>
   );
 }

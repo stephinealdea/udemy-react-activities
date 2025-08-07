@@ -92,6 +92,7 @@ h3 {
 
 .step-counter-wrapper {
   text-align: center;
+  padding: 80px 0;
 
   button {
     padding: 4px 8px;
